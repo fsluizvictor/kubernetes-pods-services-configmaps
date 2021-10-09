@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
    - name: container-pod-1
-     image: minikube
+     image: gcr.io/k8s-minikube/storage-provisioner:v5
      ports:
       - containerPort: 80
